@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    background-color: #FFBFA9;
+    color: rgb(58, 56, 56);
+}
+
+h1 {
+    text-align: center;
+    background-color: #FBFFB1;
+    width: 500px;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+button {
+    font-family: 'Urbanist', sans-serif;
+    background-color: #FFEBB4;
+    color: rgb(58, 56, 56);
+    border-radius: 5px;
+    border: 0px;
+    height: 40px;
+    width: 150px;
+}
+
+button:hover{
+    border: 1px solid rgb(58, 56, 56);
+}
+
+.login-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in{
+    background-color: #FFACAC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px 80px 50px 80px;
+    border-radius: 15px;
+}
+
+.sign-in input {
+    font-family: 'Urbanist', sans-serif;
+    margin-bottom: 20px;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.register-here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 426px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .login-wrapper, h1 {
+        width: 300px;
+    }
+    .sign-in {
+        padding: 20px;
+    }
+  }

@@ -1,0 +1,23 @@
+
+header {
+    background-color: #FFEBB4;
+    width: 100vw;
+    height: 30px;
+    position: sticky;
+    top: 0px;
+    padding: 15px 10px 10px 10px;
+}
+
+header ul {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.logout-btn{
+    background-color: #FFACAC;
+    padding: 5px;
+}
