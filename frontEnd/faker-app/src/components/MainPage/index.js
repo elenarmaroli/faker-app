@@ -34,11 +34,12 @@ const MainPage = () => {
         </header>
 
         <main>
+          <h2>Here are your details:</h2>
             <div className='card'>
-            <p>Full name: {backendData.fullName}</p>
-            <p>Job Title: {backendData.jobTitle}</p>
-            <p>Job Type: {backendData.jobType}</p>
-            <p>Gender: {backendData.gender}</p>
+            <p><b>Full name:</b> {backendData.fullName}</p>
+            <p><b>Job Title:</b> {backendData.jobTitle}</p>
+            <p><b>Job Type:</b> {backendData.jobType}</p>
+            <p><b>Gender:</b> {backendData.gender}</p>
             <img src={backendData.image} alt="Avatar"/>
             </div>
         </main>

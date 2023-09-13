@@ -1,23 +1,108 @@
+html {
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
 header {
     background-color: #FFEBB4;
     width: 100vw;
     height: 30px;
     position: sticky;
     top: 0px;
-    padding: 15px 10px 10px 10px;
+    padding: 15px 0px 20px 0px;
 }
 
 header ul {
     margin-top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
-    margin-right: 20px;
+    padding-inline-start: 0px;
+}
+
+header ul li, .logout-btn:hover {
+    border: 2px solid #FFACAC;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFEBB4;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #FFEBB4;
+} 
+
+footer ul {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+footer ul li:hover, header ul li:hover {
+    background-color: #FFACAC;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .logout-btn{
     background-color: #FFACAC;
     padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+main p {
+    background-color: #FFEBB4;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.card {
+    width: 300px;
+    background-color: #FFACAC;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 600px;
+    }
+    img {
+        margin-left: 230px;
+        width: 200px;
+        height: 200px;
+    }
+
+  }
