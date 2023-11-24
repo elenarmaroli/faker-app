@@ -1,6 +1,6 @@
 import express from "express"
 import { faker } from '@faker-js/faker';
-import MainPage from "../modules/mainPage.js";
+import MainPage from "../models/mainPage.js";
 
 
 let router = express.Router()
