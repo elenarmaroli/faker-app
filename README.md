@@ -55,7 +55,7 @@ This is a full stack demo website where you can sign up, log in, visualize data 
 - npm 
 
 ## Design
-The website was fully designed by me. 
+The website was fully designed by me. It is fully responsive on all types of devices.
 I used Figma for the design and chose a color palette and font.
 
 ## Project Structure
@@ -63,6 +63,6 @@ I used Figma for the design and chose a color palette and font.
 - `fronEnd/faker-app`: Contains the React.js frontend code.
 
 ## Screenshot
-Here, you can see the sleek and user-friendly interface. The side-bar menu moves to the top on a mobile device, providing a smooth and enjoyable user experience.
+Here, you can see the sleek and user-friendly interface. 
 
 ![](./images/faker-app.png)
