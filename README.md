@@ -15,7 +15,7 @@
 ## Introduction
 This is a full stack demo website where you can sign up, log in, visualize data fetched from faker api and log out. All data is stored in MongoDB.
 
-## Bean Café Developer
+## Faker-app Developers
 - [Elena Armaroli](https://github.com/elenarmaroli). This is an invidual project, fully designed and developed by me. 
 
 ## Features
