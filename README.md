@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Bean Café Developers](#faker-app-developers)
+- [Faker-app Developers](#faker-app-developers)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Usage](#usage)
